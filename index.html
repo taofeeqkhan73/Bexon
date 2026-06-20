@@ -1,0 +1,1322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="assets/css/bexon-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <div class="main"> -->
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-white custom-nav mx-3 py-3">
+        <div class="container">
+            <a class="navbar-brand nav-img" href="#">
+                <img src="./image/logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto header">
+
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+                <!-- <div class="nav-right"> -->
+                <div class="nav-right d-flex align-items-center gap-4 mx-5">
+                    <div class="nav-text">
+                        <button><a href="https://themejunction.net/html/bexon/demo/"><i class="bi bi-search"></i>
+                            </a></button>
+                    </div>
+                    <div class="nav-body">
+                        <button><a href="https://themejunction.net/html/bexon/demo/contact.html">Let's talk<i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a></button>
+                    </div>
+                    <div class="nav-icon">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- hero-section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="hero-main d-flex justify-content-between align-items-center my-3">
+                    <div class="col-md-6">
+                        <div class="hero text-white">
+                            <div class="hero-body"> <br> <br>
+                                <span><i class="tji-excellence"></i> Recognized for Excellence</span>
+                                <h1>Driving Excellence <br>
+                                    Through Evolution <br>
+                                    and</h1>
+                                <h2>Trust.</h2>
+                            </div>
+
+                            <div class="hero-left  d-flex justify-content-between align-items-center py-5">
+                                <div class="col-md-1">
+                                    <div class="hero-lt">
+                                        <span><i class="fa-sharp fa-solid fa-arrow-down"></i>Scroll Down</span>
+                                    </div>
+                                </div>
+
+                                <div class="hero-second d-flex justify-content-between align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="hero-ct">
+                                            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <div class="hero-rt">
+                                            <p class="py-3">Represents growth, expansion, and modern
+                                                business solution present growth, <br> expansion.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hero1">
+                            <div class="hero-right">
+                                <img src="./image/hero-img.webp" alt="">
+                            </div>
+                            <div class="customers-box ">
+                                <div class="col-md-3">
+                                    <div class="customer">
+                                        <ul class="mx-3">
+                                            <li><img src="./image/client-1.webp" alt=""></li>
+                                            <li><img src="./image/client-2.webp" alt=""></li>
+                                            <li><img src="./image/client-3.webp" alt=""></li>
+                                            <span><i class="bi bi-plus-circle-fill"></i></span>
+                                        </ul>
+                                        <div class="customer-number mx-4">
+                                            <h6>30K</h6>
+                                        </div>
+                                        <div class="customer-text mx-4">
+                                            <p>Happy customer we have world-wide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- first-section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="first-section d-flex justify-content-center align-items-center py-5">
+                <div class="col-md-12">
+                    <div class="first-text fs-4">
+                        <span>Choose the Best</span>
+                    </div>
+
+                    <div class="ft">
+                        <h1>Empowering Business <br>
+                            with <span>Expertise.</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="first-card-main d-flex justify-content-around align-items-center">
+                <!-- <div class="col-md-3"> -->
+                <div class="first-card-body">
+                    <i class="bi bi-lightbulb"></i>
+                    <h4>Innovative Solutions</h4>
+                    <p>We stay ahead of the curve, leveraging <br>cutting-edge technologies and strategies <br>to keep
+                        you
+                        competitive in a marketplace.</p>
+
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-md-3"> -->
+                <div class="first-card-body">
+                    <i class="bi bi-trophy"></i>
+                    <h4>Award-Winning Expertise</h4>
+                    <p>Recognized by industry leaders, our <br> award-winning team has a proven record <br> of
+                        delivering
+                        excellence across projects.</p>
+
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-md-3"> -->
+                <div class="first-card-body">
+                    <i class="bi bi-lightbulb"></i>
+                    <i class="tji-support"></i>
+                    <h4>Dedicated Support</h4>
+                    <p>Our team is always available to address <br>your concerns, providing quick and <br>effective
+                        solution to
+                        keep your business.</p>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </div>
+    <!-- second-section -->
+    <div class="container-fluid main-div-relate">
+        <!-- <div class="blur-circle"> -->
+
+        <div class="row">
+            <div class="slider">
+                <div class="second-card-main">
+                    <!-- <div class="col-md-12"> -->
+                    <div class="second-image-card">
+                        <img src="./image/brand-1.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-2.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-3.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-4.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-5.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-6.webp" alt="">
+                    </div>
+                    <!-- duplicate -->
+                    <div class="second-image-card">
+                        <img src="./image/brand-1.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-2.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-3.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-4.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-5.webp" alt="">
+                    </div>
+                    <div class="second-image-card">
+                        <img src="./image/brand-6.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- </div> -->
+        </div>
+        <div class="row">
+            <div class="circle">
+                <!-- <div class="col-md-6"> -->
+                <div class="circle-main">
+                    <div class="circle-body"> <br> <br> <br> <br>
+                        <h2>Join Over <span>1000+</span></h2>
+                        <h3>Companies with</h3>
+                    </div>
+                    <div class="ct">
+                        <span> Bexon</span> Here
+                    </div>
+
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- third-section -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-main d-flex justify-content-around align-items-center py-5">
+                    <div class="col-md-5">
+                        <div class="about-body">
+                            <div class="about-image">
+                                <img src="./image/about-1.webp" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about1">
+                                    <div class="about1-text">
+                                        <span>Experiences</span>
+                                        <h2>13+</h2>
+                                        <p>Decades of Experience, <br> Endless Innovation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="about-content py-4">
+                            <div class="about-lt">
+                                <span>Get to Know Us</span>
+                            </div>
+                            <div class="about-ct">
+                                <h1>Empowering <br>
+                                    Businesses with <br>
+                                    Innovation, Expertise, <br>
+                                    and for <span>Success.</span></h1>
+                            </div>
+                            <div class="about-rt">
+                                <span> <a href="#">Lerne More <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                            </div>
+                        </div>
+                        <div class="about-side d-flex justify-content-between align-items-center">
+                            <div class="col-md-6">
+                                <div class="about-left py-4">
+                                    <div class="about-lf text-white">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <p>We believe in building lasting relationships with our clients through trust,
+                                            innovation, and exceptional service.</p>
+                                    </div>
+                                    <div class="div d-flex justify-content-between align-items-center">
+                                        <div class="div-left text-white">
+                                            <h5>Esther Howard</h5>
+                                            <p>Co.Founder</p>
+                                        </div>
+                                        <div class="div-right">
+                                            <span><i class="fa-solid fa-quote-right"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="about-right">
+                                    <img src="./image/about-2.webp" alt="">
+                                    <a href="https://www.youtube.com/watch?v=MLpWrANjFbI">
+                                        <i class="bi bi-play-circle"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fourth section -->
+    <!-- <div class="fourth-main py-5"> -->
+    <div class="container fourth-main">
+        <div class="row ">
+            <div class="fourth py-5">
+                <div class="col-md-12 ">
+                    <div class="fourth-section text-center text-white">
+                        <div class="fourth-sp">
+                            <span>Our Solutions</span>
+                        </div>
+                        <div class="fourth-hd">
+                            <h1>Solutions to Transform <br>
+                                Your <span>Business.</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="swiper mySwipers">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide text-white">
+                        <img src="./image/service-1.webp" alt="">
+                        <div class="card-text">
+                            <h4>Business Strategy Development</h4>
+                            <p>Through a combination of data-driven <br>
+                                insights and innovative approaches, we <br>
+                                work closely with you to develop customized.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i> </a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-5.webp" alt="">
+                        <div class="card-text">
+                            <h4>Customer Experience Solutions</h4>
+                            <p>Developing personalized customer journeys <br> to increase satisfaction and
+                                loyalty of our expansion to keep competitive.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-6.webp" alt="">
+                        <div class="card-text">
+                            <h4>Sustainability and ESG Consulting</h4>
+                            <p>Provide tailored strategies that not only drive <br> long-term value but also
+                                build trust with stakeholders, investors.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-7.webp" alt="">
+                        <div class="card-text">
+                            <h4> Training and Development Programs</h4>
+                            <p> Training and Development Programs are designed to empower employees with the
+                                skills, knowledge, and tools they need.</p>
+                            <span> <a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide text-white">
+                        <img src="./image/service-1.webp" alt="">
+                        <div class="card-text">
+                            <h4>Business Strategy Development</h4>
+                            <p>Through a combination of data-driven <br>
+                                insights and innovative approaches, we <br>
+                                work closely with you to develop customized.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-5.webp" alt="">
+                        <div class="card-text">
+                            <h4>Customer Experience Solutions</h4>
+                            <p>Developing personalized customer journeys <br> to increase satisfaction and
+                                loyalty of our expansion to keep competitive.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-6.webp" alt="">
+                        <div class="card-text">
+                            <h4>Sustainability and ESG Consulting</h4>
+                            <p>Provide tailored strategies that not only drive <br> long-term value but also
+                                build trust with stakeholders, investors.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-7.webp" alt="">
+                        <div class="card-text">
+                            <h4> Training and Development Programs</h4>
+                            <p> Training and Development Programs are designed to empower employees with the
+                                skills, knowledge, and tools they need.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide text-white">
+                        <img src="./image/service-1.webp" alt="">
+                        <div class="card-text">
+                            <h4>Business Strategy Development</h4>
+                            <p>Through a combination of data-driven <br>
+                                insights and innovative approaches, we <br>
+                                work closely with you to develop customized.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-5.webp" alt="">
+                        <div class="card-text">
+                            <h4>Customer Experience Solutions</h4>
+                            <p>Developing personalized customer journeys <br> to increase satisfaction and
+                                loyalty of our expansion to keep competitive.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-6.webp" alt="">
+                        <div class="card-text">
+                            <h4>Sustainability and ESG Consulting</h4>
+                            <p>Provide tailored strategies that not only drive <br> long-term value but also
+                                build trust with stakeholders, investors.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/service-7.webp" alt="">
+                        <div class="card-text">
+                            <h4> Training and Development Programs</h4>
+                            <p> Training and Development Programs are designed to empower employees with the
+                                skills, knowledge, and tools they need.</p>
+                            <span><a href="#">Learn More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- fifth section -->
+    <div class="container">
+        <div class="row">
+            <div class="fifth-section d-flex justify-content-around align-items-center py-5">
+                <div class="col-4">
+                    <div class="fifth-text py-5">
+                        <div class="text-body"> <br>
+                            <span>Proud Projects</span>
+                        </div>
+                        <div class="text-1">
+                            <h2>Breaking Boundaries, Building <span> Dreams.</span> </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="fifth-text">
+                        <p>We work closely with our clients to understand <br>
+                            their unique needs and craft tailored solutions <br>
+                            that address challenges</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="fifth-text">
+                        <div class="text-2">
+                            <span><a href="#">More projects <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fifth-left-main d-flex justify-content-around align-items-center">
+                <div class="col-md-7">
+                    <div class="fifth-left">
+                        <div class="fifth-img">
+                            <img src="./image/project-1.webp" alt="">
+                        </div>
+                        <div class="fifth-content">
+                            <button>Connect</button>
+                            <h4>Event management <br>
+                                platform</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="fifth-right">
+                        <div class="right-img">
+                            <img src="./image/project-1.webp" alt="">
+                        </div>
+                        <div class="right-content">
+                            <button>Empower</button>
+                            <h4>Digital marketing compaign</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="fifth-left-main d-flex justify-content-around align-items-center">
+                <div class="col-md-3">
+                    <div class="fifth-left1">
+                        <div class="fifth-img1">
+                            <img src="./image/project-3.webp" alt="">
+                        </div>
+                        <div class="fifth-content1">
+                            <button>Support</button>
+                            <h4>Interactive Learning<br>
+                                Platform</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="fifth-right1">
+                        <div class="right-img1">
+                            <img src="./image/project-4.webp" alt="">
+                        </div>
+                        <div class="right-content1">
+                            <button>Business</button>
+                            <h4>Environmental Impact <br> Dashboard</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sixth-section -->
+    <div class="container sixth-part">
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="sixth-section-main">
+                    <div class="sixth-section">
+                        <div class="count">
+                            <div class="count-body">
+                                <span>93%</span>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="sixth-section1">
+                            <div class="count-body1">
+                                <img src="./image/separator.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="count">
+                            <div class="count-body">
+                                <span>20M</span>
+                                <p>Reach Worldwide</p>
+                            </div>
+                        </div>
+                        <div class="sixth-section1">
+                            <div class="count-body1">
+                                <img src="./image/separator.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="count">
+                            <div class="count-body">
+                                <span>8.5X</span>
+                                <p>Faster Growth</p>
+                            </div>
+                        </div>
+                        <div class="sixth-section1">
+                            <div class="count-body1">
+                                <img src="./image/separator.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="count">
+                            <div class="count-body">
+                                <span>100+ </span>
+                                <p>Awards Archived</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- seventh-section -->
+    <!-- <div class="seventh-section"> -->
+    <div class="container seventh-section">
+        <div class="row">
+            <div class="seventh-sectiom-main d-flex justify-content-around align-items-center py-5">
+                <div class="col-md-6">
+                    <div class="seventh-text py-5">
+                        <div class="left">
+                            <span>Clients Feedback</span>
+                        </div>
+                        <div class="sth-ct">
+                            <h2>Success <span>Stories</span> Fuel <br>
+                                our Innovation.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="seventh-btn d-flex justify-content-end  gap-4">
+                        <span> <i class="bi bi-arrow-left-short"></i></span>
+                        <span><i class="bi bi-arrow-right-short"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwipers">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>Working with Bexon has been a game-changer for our business. Their team's
+                            professionalism,
+                            attention to detail, and innovative solutions have helped us streamline operations and
+                            achieve
+                            our goals faster than we imagined. We truly feel like a valued partner.</p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-1.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Guy Hawkins</h4>
+                                <p>Co founder </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>The results we’ve seen after partnering with Bexon are beyond our expectations. They not
+                            only
+                            understood our vision but also brought new ideas to the table that have taken our business
+                            to
+                            the next level. Their expertise and commitment to success make them a trusted.
+                        </p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-2.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Ralph Edwards</h4>
+                                <p>Co founder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>We’ve been working with Bexonfor years, and they continue to deliver outstanding results.
+                            Their team is proactive, responsive, and always goes the extra mile to ensure our needs
+                            are
+                            met. They’ve become a key contributor to our growth and success that really help us"
+                        </p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-3.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Devon Lane</h4>
+                                <p>Co founder </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>Working with Bexon has been a game-changer for our business. Their team's
+                            professionalism,
+                            attention to detail, and innovative solutions have helped us streamline operations and
+                            achieve
+                            our goals faster than we imagined. We truly feel like a valued partner.</p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-1.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Guy Hawkins</h4>
+                                <p>Co founder </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>The results we’ve seen after partnering with Bexon are beyond our expectations. They not
+                            only
+                            understood our vision but also brought new ideas to the table that have taken our business
+                            to
+                            the next level. Their expertise and commitment to success make them a trusted.
+                        </p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-2.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Ralph Edwards</h4>
+                                <p>Co founder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="seventh-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>We’ve been working with Bexonfor years, and they continue to deliver outstanding results.
+                            Their team is proactive, responsive, and always goes the extra mile to ensure our needs
+                            are
+                            met. They’ve become a key contributor to our growth and success that really help us"
+                        </p>
+                        <div class="card-text1 d-flex justify-content-start align-items-center">
+                            <img src="./image/client-3.webp" alt="">
+                            <div class="card-text2">
+                                <h4>Devon Lane</h4>
+                                <p>Co founder </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </div>
+    </div>
+    <!-- </div> -->
+    <!-- Eight-section -->
+    <div class="container">
+        <div class="row">
+            <div class="eight-section d-flex justify-content-between py-5">
+                <div class="col-md-6">
+                    <div class="eight-body">
+                        <div class="eight-image py-3">
+                            <h1>Need Help? Start <br> Here...</h1>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="eight1">
+                                <div class="eight1-text py-3">
+                                    <h1>Get Started <br> Free Call?</h1> <br>
+                                    <div class="eight-icont">
+                                        <i class="bi bi-telephone-outbound-fill"></i>
+                                    </div>
+                                    <span>1-888-452-1505</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion tj-faq tj-arrange-item-2" id="faqOne"
+                        style="translate: none; rotate: none; scale: none; transform: translate(27.1719%, 0%) translate3d(0px, 0px, 0px);">
+                        <div class="accordion-item">
+                            <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq-1" aria-expanded="false">What services does Bexon offer to
+                                clients?</button>
+                            <div id="faq-1" class="collapse" data-bs-parent="#faqOne">
+                                <div class="accordion-body faq-text">
+                                    <p>Getting started is easy! Simply reach out to us through our contact form or give
+                                        us a call,
+                                        and
+                                        we’ll schedule a consultation to discuss your project and how we can best assist
+                                        you. Our team
+                                        keeps you informed throughout the process, ensuring quality control and timely
+                                        delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq-2" aria-expanded="false">How do I get started with Corporate
+                                Business?</button>
+                            <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
+                                <div class="accordion-body faq-text">
+                                    <p>Getting started is easy! Simply reach out to us through our contact form or give
+                                        us a call,
+                                        and
+                                        we’ll schedule a consultation to discuss your project and how we can best assist
+                                        you. Our team
+                                        keeps you informed throughout the process, ensuring quality control and timely
+                                        delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq-3" aria-expanded="false">How do you ensure the success of a
+                                project?</button>
+                            <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
+                                <div class="accordion-body faq-text">
+                                    <p>Getting started is easy! Simply reach out to us through our contact form or give
+                                        us a call,
+                                        and
+                                        we’ll schedule a consultation to discuss your project and how we can best assist
+                                        you. Our team
+                                        keeps you informed throughout the process, ensuring quality control and timely
+                                        delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq-4" aria-expanded="false">How do you ensure the success of a
+                                project?</button>
+                            <div id="faq-4" class="collapse" data-bs-parent="#faqOne">
+                                <div class="accordion-body faq-text">
+                                    <p>Getting started is easy! Simply reach out to us through our contact form or give
+                                        us a call,
+                                        and
+                                        we’ll schedule a consultation to discuss your project and how we can best assist
+                                        you. Our team
+                                        keeps you informed throughout the process, ensuring quality control and timely
+                                        delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq-5" aria-expanded="false">How do you ensure the success of a
+                                project?</button>
+                            <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                                <div class="accordion-body faq-text">
+                                    <p>Getting started is easy! Simply reach out to us through our contact form or give
+                                        us a call,
+                                        and
+                                        we’ll schedule a consultation to discuss your project and how we can best assist
+                                        you. Our team
+                                        keeps you informed throughout the process, ensuring quality control and timely
+                                        delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ninth-section -->
+    <div class="container ninth-section">
+        <div class="row">
+            <div class="ninth-main d-flex justify-content-around align-items-center">
+                <div class="col-md-6">
+                    <div class="global-map">
+                        <div class="ninth-image">
+                            <img src="./image/map.svg" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="loc1">
+                                <div class="location-theory">
+                                    <!-- <span>this is a heading</span>
+                                    <p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
+                                    <a href="tel:10095447818">P: +1 (009) 544-7818</a>
+                                    <a href="mailto:support@bexon.com">M: support@bexon.com</a> -->
+
+                                </div>
+                            </div>
+                            <div class="loc2">
+                                <div class="location-theory">
+                                    <!-- <span>this is a heading</span>
+                                    <p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
+                                    <a href="tel:10095447818">P: +1 (009) 544-7818</a>
+                                    <a href="mailto:support@bexon.com">M: support@bexon.com</a> -->
+
+                                </div>
+                            </div>
+                            <div class="loc3">
+                                <div class="location-theory">
+                                    <!-- <span>this is a heading</span>
+                                    <p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
+                                    <a href="tel:10095447818">P: +1 (009) 544-7818</a>
+                                    <a href="mailto:support@bexon.com">M: support@bexon.com</a> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="global-form text-white py-5">
+                        <div class="global-text">
+                            <span>Get in Touch</span>
+                        </div> <br>
+                        <div class="global-head">
+                            <h1>Drop Us a <span>Line.</span></h1>
+                        </div> <br>
+                        <div class="global-form1 d-flex justify-content-between">
+                            <div class="global-left">
+                                <input type="text" name="name" placeholder="Full Name">
+                            </div>
+                            <div class="global-right">
+                                <input type="text" name="name" placeholder="Email Address">
+                            </div>
+                        </div> <br> <br>
+                        <div class="global-form1 d-flex justify-content-between">
+                            <div class="global-left">
+                                <input type="tel" name="mobile" placeholder="Phonr Number*">
+                            </div>
+                            <div class="global-right">
+                                <select name="country" required>
+                                    <option value="">chose a option </option>
+                                    <option value="India">India</option>
+                                    <option value="USA">USA</option>
+                                    <option value="UK">UK</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Australia">Australia</option>
+                                </select> <br>
+                            </div>
+                        </div> <br>
+                        <div class="global-form1">
+                            <div class="global-left">
+                                <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
+                                <br> <br>
+                                <span>Send Message <i class="bi bi-arrow-up-right-circle-fill"></i></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card-section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ten-section text-center py-5">
+                    <div class="text-ct">
+                        <span>INSIGHTS & IDEAS</span>
+                    </div> <br>
+                    <div class="text-bt">
+                        <h1>The Ultimate <span>Resource.</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-section d-flex justify-content-around align-items-center py-5">
+                <!-- <div class="col-md-4"> -->
+                <div class="card-main">
+                    <div class="card-image">
+                        <img src="./image/blog-1.webp" alt="">
+                    </div> <br>
+                    <div class="card-title">
+                        <span>Business</span> By Ellinien Loma
+                        <h4>Innovative Solutions for <br> every Business Success.</h4>
+                    </div>
+                    <div class="btn-text">
+                        <span><a href="#">Read More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-md-4"> -->
+                <div class="card-main">
+                    <div class="card-image">
+                        <img src="./image/blog-2.webp" alt="">
+                    </div> <br>
+                    <div class="card-title">
+                        <span>Business</span> By Ellinien Loma
+                        <h4>Harnessing Digital Transform a Roadmap Businesses.</h4>
+                    </div>
+                    <div class="btn-text">
+                        <span><a href="#">Read More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-md-4"> -->
+                <div class="card-main">
+                    <div class="card-image">
+                        <img src="./image/blog-3.webp" alt="">
+                    </div> <br>
+                    <div class="card-title">
+                        <span>Business</span>By Ellinien Loma
+                        <h4>Mastering Change Management Lessons for Businesses.</h4>
+                    </div>
+                    <div class="btn-text">
+                        <span><a href="#">Read More <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- cta section -->
+    <div class="container cta-main1">
+        <div class="row">
+            <div class="cta-main d-flex justify-content-between align-items-center py-5">
+                <div class="col-md-6">
+                    <!-- <div class="cta-area"> -->
+                    <div class="cta-content py-5 text-white">
+                        <h1 class="py-3">Let’s Build Future <br> Together.</h1>
+                        <span><a href="#">Get Started Now <i class="bi bi-arrow-up-right-circle-fill"></i></a></span>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="col-md-6">
+                    <div class="cta-image">
+                        <img src="./image/cta-bg.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-section -->
+    <!-- <div class="footer-section"> -->
+    <div class="container footer-section">
+        <div class="row">
+            <div class="footer-main">
+                <div class="footer-first-part">
+                    <div class="footer-image">
+                        <img src="./image/logo.webp" alt="">
+                        <p class="py-3">Developing personalze our customer journeys to increase satisfaction &
+                            loyalty of our expansion.</p>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="./image/award-logo-1.webp" alt="">
+                        <img src="./image/award-logo-2.webp" alt="">
+
+                    </div>
+                </div>
+                <div class="footer-second-part">
+                    <div class="footer-second-text">
+                        <h2>Services</h2>
+                        <p><a href="#">Customer Experience </a></p>
+                        <p><a href="#">Training Programs </a></p>
+                        <p><a href="#">Business Strategy</a></p>
+                        <p><a href="#">Training Program</a></p>
+                        <p><a href="#">ESG Consulting</a></p>
+                        <p><a href="#">Development Hub</a></p>
+                    </div>
+
+                </div>
+                <div class="footer-third-part">
+                    <div class="footer-third-text">
+                        <h2>Resources</h2>
+                        <p><a href="#">Contact us</a></p>
+                        <p><a href="#">Team Member</a></p>
+                        <p><a href="#">Recognitions</a></p>
+                        <p><a href="#">careers<span>news</span></a></p>
+                        <p><a href="#">News</a></p>
+                        <p><a href="#">Feedback</a></p>
+                    </div>
+                </div>
+                <div class="footer-fourth-part">
+                    <div class="footer-four-text">
+                        <h2>Subscribe to Our Newsletter.</h2>
+                    </div> <br> <br>
+                    <div class="subscribe-form">
+                        <form action="#">
+                            <input type="email" name="email" placeholder="Enter email">
+                            <button type="submit"><i class="bi bi-send"></i></button> <br>
+                            <label for="agree"><input id="agree" type="checkbox">Agree to our <a href="#">Terms
+                                    &amp;
+                                    Condition?</a></label>
+                        </form>
+                    </div> <br> <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="last-section  d-flex justify-content-around align-items-center py-4">
+                <div class="col-md-11 ppt">
+                    <div class="last-next d-flex justify-content-around align-items-cente r py-2">
+                        <div class="col-md-4">
+                            <div class="last-left">
+                                <span><i class="bi bi-telephone-fill"></i>
+                                    +1 (009) 544-7818</span>
+                                <span><i class="bi bi-envelope"></i> info@bexon.com</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="last-center">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="last-right">
+                                <p>© 2026 Bexon All right reserved</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwipers", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

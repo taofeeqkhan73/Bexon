@@ -1002,7 +1002,7 @@ body {
 }
 
 .eight-image {
-    background-image: url(./image/faq.webp);
+    background-image: url(./faq.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
